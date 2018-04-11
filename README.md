@@ -25,8 +25,8 @@
 
 ### 遊戲
 (皆未發布)  
-[Game][JP]Black Desert  
-[Game][JP]DDON  
+[Game][JP]Black Desert  
+[Game][JP]DDON  
 [Game][JP]Granado Espada  
 [Game][JP]Soul Worker  
 [Game][JP]Tree of Savior  
