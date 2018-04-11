@@ -1,6 +1,5 @@
-# specified-connection
-Specified connection through VPN or OpenVPN
+# 指定連線 (Specified Connection)
+## 支援
+* Windows 8 or later
 
-
-# 指定連線
-透過 VPN 或 OpenVPN 做指定連線
+使用 nslookup 或特定ip 做 route 達成 VPN 或 OpenVPN 指定連線的批次檔
