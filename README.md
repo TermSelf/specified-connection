@@ -14,3 +14,12 @@
 ## 首次使用
 * VPN Client 需要取消「使用遠端網路的預設閘道」
 * OpenVPN 請設定 route-nopull
+
+## 支援列表
+### 網站
+**[WEB]China Channels** - 愛奇藝、優酷、bilibili、騰訊  
+**[WEB]Baidu** - 百度網盤  
+**[WEB]Google Play**
+
+### 遊戲
+暫無
