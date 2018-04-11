@@ -26,7 +26,7 @@ if '%errorlevel%' NEQ '0' (
 
 
 REM Made by TermSelf
-REM Version 2.0_2018_April_4_OpenVPN
+REM Version 2.0_2018_April_12_OpenVPN
 :-------------------------------------
 
 
@@ -155,6 +155,7 @@ for /f "skip=4 tokens=2-5 delims=.: " %%a in ('nslookup !iqiyi_domain_%%i!') do 
 >nul 2>&1 route delete %%a.%%b.%%c.%%d
 >nul 2>&1 route add %%a.%%b.%%c.%%d mask %mask_1% %gateway% if %if% metric 1
 ))
+endlocal
 setlocal DisableDelayedExpansion
 for /f "skip=4 tokens=2-5 delims=.: " %%a in ('nslookup %youku_domain%') do (
 >nul 2>&1 route delete %%a.%%b.%%c.%%d
@@ -182,6 +183,7 @@ for /l %%i in (1,1,1) do (
 >nul 2>&1 route delete !tencent_ip_%%i!
 >nul 2>&1 route add !youku_ip_%%i! mask %mask_1% %gateway% if %if% metric 1
 )
+endlocal
 setlocal DisableDelayedExpansion
 
 echo.
@@ -198,6 +200,7 @@ for /l %%i in (1,1,9) do (
 for /f "skip=4 tokens=2-5 delims=.: " %%a in ('nslookup !iqiyi_domain_%%i!') do (
 >nul 2>&1 route delete %%a.%%b.%%c.%%d
 ))
+endlocal
 setlocal DisableDelayedExpansion
 for /f "skip=4 tokens=2-5 delims=.: " %%a in ('nslookup %youku_domain%') do (
 >nul 2>&1 route delete %%a.%%b.%%c.%%d
@@ -219,6 +222,7 @@ for /l %%i in (1,1,8) do (
 for /l %%i in (1,1,1) do (
 >nul 2>&1 route delete !tencent_ip_%%i!
 )
+endlocal
 setlocal DisableDelayedExpansion
 
 goto Connected
