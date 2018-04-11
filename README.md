@@ -1,6 +1,6 @@
 # 指定連線 (Specified Connection)
 
-使用 `nslookup` `ip` `route` 達成 VPN 或 OpenVPN 指定連線的批次檔
+使用 `nslookup` `IPv4` `route` 達成 VPN 或 OpenVPN 指定連線的批次檔
 
 多功能通用版本、Debug 版本、VPN Gate Client 版本 暫時不會放上來
 
