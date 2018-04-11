@@ -6,6 +6,9 @@
 
 目前只上傳了 2.0 以上的即開即用版本
 
+如果之後能學會對特定程式的流量控制, 這些可能就沒有用了  
+不過還是能供大家作為研究用途  
+
 ![](https://i.imgur.com/o59B26M.png)
 
 ## 支援系統
@@ -22,4 +25,17 @@
 [WEB]Google Play
 
 ### 遊戲
-暫無
+(皆未發布)
+[Game][JP]Black Desert
+[Game][JP]DDON
+[Game][JP]Granado Espada
+[Game][JP]Soul Worker
+[Game][JP]Tree of Savior
+[Game][KR]Tree of Savior
+[Game][NA]TERA
+[Game][NA]Tree of Savior
+[Game][NA]Vindictus
+[Game][SEA]Tree of Savior
+
+### 其他
+[Other][JP]DMMGamePlayer
