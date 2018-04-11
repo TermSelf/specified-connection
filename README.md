@@ -6,6 +6,8 @@
 
 目前只上傳了 2.0 以上的即開即用版本
 
+![](https://i.imgur.com/o59B26M.png)
+
 ## 支援系統
 * Windows 8+
 
