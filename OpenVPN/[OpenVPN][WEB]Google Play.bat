@@ -26,7 +26,7 @@ if '%errorlevel%' NEQ '0' (
 
 
 REM Made by TermSelf
-REM Version 2.0_2018_April_4_OpenVPN
+REM Version 2.0_2018_April_12_OpenVPN
 :-------------------------------------
 
 
@@ -106,6 +106,7 @@ for /l %%i in (1,1,4) do (
 >nul 2>&1 route delete !ip_%%i!
 >nul 2>&1 route add !ip_%%i! mask %mask_3% %gateway% if %if% metric 1
 )
+endlocal
 setlocal DisableDelayedExpansion
 
 goto Connected
@@ -125,6 +126,7 @@ setlocal EnableDelayedExpansion
 for /l %%i in (1,1,4) do (
 >nul 2>&1 route delete !ip_%%i!
 )
+endlocal
 setlocal DisableDelayedExpansion
 
 goto Connected
