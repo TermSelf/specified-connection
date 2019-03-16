@@ -2,7 +2,7 @@
 透過DOS指令`nslookup`、`route`達成 OpenVPN 指定連線的批次檔
 
 ## ver 2.4
-僅支持OpenVPN
+*僅支持OpenVPN  
 自動獲取IP  
 預設閘道=IP+1
 
