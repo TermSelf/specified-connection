@@ -38,9 +38,9 @@
   執行`addtap.bat`可增加虛擬網卡數量
 
   範例：  
-  set interface=TAP-Windows Adapter V9  
+  set interface=`TAP-Windows Adapter V9`  
   →  
-  set interface=TAP-Windows Adapter V9 #3  
+  set interface=`TAP-Windows Adapter V9 #3`  
 
 ## 支援列表
 [WEB]DMM.com  
