@@ -2,7 +2,8 @@
 透過DOS指令`nslookup`、`route`達成 OpenVPN 指定連線的批次檔
 
 ## ver 2.4
-*僅支持OpenVPN  
+*僅支持OpenVPN
+
 自動獲取IP  
 預設閘道=IP+1
 
@@ -41,3 +42,8 @@
 [WEB]Baidupan (百度網盤)  
 [WEB]Google Play  
 [UWP][WEB][BETA]Netflix  
+
+## 已知問題
+Netflix：  
+由於是針對 Amazon 服務的大範圍 IP 路由  
+指定連線時，可能會影響到部分網站服務
