@@ -1,5 +1,5 @@
 # Windows 指定連線批次檔
-透過DOS指令`nslookup`、`route`達成 OpenVPN 指定連線的批次檔
+透過DOS指令`nslookup`、`route`等功能達成 OpenVPN 指定連線的批次檔
 
 ## ver 2.4
 *僅支持OpenVPN
